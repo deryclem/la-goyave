@@ -1,6 +1,4 @@
 <footer>
-  <fieldset>
-    <legend>footer.php: &lt;footer&gt; avec <code>wp_footer()</code></legend>
   <div class="site-info">
     <div class="site-info">
         <!-- It’s there for you to use if you want to add credit text/links via your child theme -->
@@ -9,7 +7,6 @@
     			<span class="sep"> | </span>
     			<?php printf( __( 'Thème : %1$s par %2$s.', 'didactique' ), 'Didactique', 'Mathieu Mangeot' ); ?>
     		</div><!-- .site-info -->
-</fieldset>
 <?php wp_footer(); ?>
 </footer>
 </body>
