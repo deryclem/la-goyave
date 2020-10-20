@@ -11,10 +11,13 @@
     </head>
     <body>
       <header>
+        <fieldset>
+          <!--<legend>header.php: &lt;head&gt; avec <code>wp_head()</code> + &lt;header&gt;</legend>-->
         <h1><?php bloginfo( 'name' ); ?></h1>
         <h2><?php bloginfo( 'description' ); ?></h2>
         <nav id="menuprincipal">
-          <div id="legendemenuprincipal">Menu principal <code>wp_page_menu('show_home=1'):</code></div>
+          <div id="legendemenuprincipal"></div>
           <?php wp_page_menu('show_home=1'); ?>
         </nav>
+      </fieldset>
       </header>
