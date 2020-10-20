@@ -11,8 +11,14 @@
     </head>
     <body>
       <header>
+        <div class="concept concept-three">
+    <div class="word">
+      <div class="hover">
+
+  </div>
         <fieldset>
-        <h1><?php bloginfo( 'name' ); ?></h1>
+            <h1><?php bloginfo( 'name' ); ?></h1>
+
         <nav id="menuprincipal">
           <div id="legendemenuprincipal"></div>
           <?php wp_page_menu('show_home=1'); ?>
