@@ -2,15 +2,19 @@
 
 */
 body {
-  background: red;
+  background: blue;
 	font-family: "Comfortaa", sans-serif;
 	position: relative;
 }
 
 header {
   display: block;
-  color: red;
+  color: blue;
   ;
+}
+
+header h1 {
+  text-align: center;
 }
 
 header fieldset, header fieldset legend {
